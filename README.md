@@ -1,6 +1,6 @@
 #               Mobile Stub Development for FoodNEST(S)
 
-# 1. Designing the Mobile Stub
+### 1. Designing the Mobile Stub
 
 Objective: Create a lightweight launchpad for FoodNEST(S) that ensures smooth functionality in low mobile network connectivity areas.
 Approach:
@@ -12,21 +12,21 @@ Benefits:
 Seamless user experience.
 Efficient processing and rendering in low-connectivity areas.
 
-# 2. User Registration and Profile Management
+### 2. User Registration and Profile Management
 
 Objective: Implement a user registration system.
 Approach:
 Allow users to sign up and create profiles.
 Store user profile information efficiently in the cache for session management.
 
-# 3. Product Browsing and Selection
+### 3. Product Browsing and Selection
 
 Objective: Enable users to browse products within a chosen category.
 Approach:
 Select a category (e.g., “Main Courses,” “Desserts”).
 Implement product browsing, view details, add items to the cart, and manage selections.
 
-# 4. Order Flow and Checkout Process
+### 4. Order Flow and Checkout Process
 
 Objective: Develop an order flow.
 Approach:
@@ -34,14 +34,14 @@ Allow users to add items to their cart.
 Implement a delivery address input form.
 Provide payment options for order completion.
 
-# 5. Data Storage and Transmission
+### 5. Data Storage and Transmission
 
 Objective: Efficiently manage data.
 Approach:
 Store session data, user profiles, cart contents, order details, and browsing history in the mobile cache.
 Relay data to the web server’s database for updates.
 
-# 6. Optimization for Low Bitrate and Cache Usage
+### 6. Optimization for Low Bitrate and Cache Usage
 
 Objective: Ensure smooth functionality in low mobile network connectivity.
 Approach:
@@ -49,7 +49,7 @@ Minimize bitrate requirements.
 Utilize cache memory effectively for prefetching session data.
 Improve user experience and reduce loading times.
 
-# 7. Testing and Performance Evaluation
+### 7. Testing and Performance Evaluation
 Objective: Validate functionality across devices and network conditions.
 Approach:
 Thoroughly test the mobile stub version.
