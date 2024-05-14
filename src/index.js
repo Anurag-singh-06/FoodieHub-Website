@@ -1,17 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+// index.js
+
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import StubIconPage from './components/StubIconPage'; // Import the StubIconPage component
 
 import reportWebVitals from './reportWebVitals';
 
+const Index = () => {
+  const [showStubIconPage, setShowStubIconPage] = useState(true);
 
+  const handleLogoClick = () => {
+    setShowStubIconPage(false);
+  };
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-      <App />
-  </React.StrictMode>
+  return (
+    <React.StrictMode>
+      {showStubIconPage ? (
+        <StubIconPage onLogoClick={handleLogoClick} />
+      ) : (
+        <App />
+      )}
+    </React.StrictMode>
+  );
+};
+
+ReactDOM.render(
+  <Index />,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -11,11 +11,12 @@ const jwtSecret = "HaHa"
 // var foodItems= require('../index').foodData;
 // require("../index")
 //Creating a user and storing data to MongoDB Atlas, No Login Requiered
+
 router.post('/createuser', [
     body('email').isEmail(),
     body('password').isLength({ min: 5 }),
     body('name').isLength({ min: 3 })
-], async (req, res) => {
+], async (req, res) => { 
     let success = false
     const errors = validationResult(req);
     if (!errors.isEmpty()) {

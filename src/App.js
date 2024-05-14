@@ -14,10 +14,10 @@ import Login from './screens/Login';
 import Signup from './screens/Signup';
 import { CartProvider } from './components/ContextReducer';
 import MyOrder from './screens/MyOrder';
-
-
+import PaymentPage from './components/PaymentPage.js';
+import Cart from './screens/Cart.js';
 function App() {
-  return (
+  return ( 
     <CartProvider>
       <Router>
         <div>
@@ -26,6 +26,8 @@ function App() {
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/signup" element={<Signup />} />
             <Route exact path="/myorder" element={<MyOrder />} />
+            <Route exact path="/cart" element={<Cart/>}/>
+            <Route exact path="/paymentpage" element={<PaymentPage/>}/>
           </Routes>
         </div>
       </Router>

@@ -87,7 +87,7 @@ export default function Card(props) {
                   <option key={i + 1} value={i + 1}>{i + 1}</option>)
               })}
             </select>
-            <select className="m-2 h-100 w-20 px-1 bg-success text-black rounded" style={{ select: "#FF0000" }} ref={priceRef} onClick={handleClick} onChange={handleOptions}>
+            <select className="m-2 h-100 w-20 bg-success text-black rounded" style={{ select: "#FF0000" }} ref={priceRef} onClick={handleClick} onChange={handleOptions}>
               {priceOptions.map((i) => {
                 return <option key={i} value={i}>{i}</option>
               })}

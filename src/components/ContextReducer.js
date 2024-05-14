@@ -13,7 +13,7 @@ const reducer = (state, action) => {
             return newArr;
         case "DROP":
             let empArray = []
-            return empArray
+            return empArray;
         case "UPDATE":
             let arr = [...state]
             arr.find((food, index) => {
