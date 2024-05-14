@@ -55,6 +55,19 @@ Approach:
 Thoroughly test the mobile stub version.
 Evaluate speed, responsiveness, and cache memory efficiency.
 
+# Challenges :-
+
+1.Low Bitrate Optimization
+  Solution: Implement data compression techniques such as gzip compression to reduce the size of data transferred between the server and the mobile device.
+2.Efficient Cache Usage
+  Solution: Utilize browser caching mechanisms effectively by leveraging techniques like service workers and local storage. Prefetch frequently accessed resources and store them in the cache memory of the mobile 
+  device.
+3.Optimization for Low Connectivity
+  Solution: Implement offline-first strategies to allow the mobile app to function even when there is no network connectivity.
+4.Payment Integration
+  Solution: Integrate lightweight payment gateways optimized for mobile devices. Choose payment APIs that support mobile platforms and provide a seamless checkout experience. 
+
+
 # Screenshots of Website
 
 ### Foodnest(S) stub icon
