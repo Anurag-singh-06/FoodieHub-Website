@@ -1,4 +1,4 @@
-#               Mobile Stub Development for FoodNEST(S)
+#               Mobile Stub Development for FoodieHub(S)
 
 ### 1. Designing the Mobile Stub
 
